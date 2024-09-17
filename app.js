@@ -196,4 +196,77 @@
 // }
 // console.log(sum(10,10,10));
 
- 
+//  higer order Fucntions
+
+// function multiplegreet(func, n){
+//   for(let i=1; i<=n; i++){
+//     func();
+//   }
+// }
+// let greet = function(){
+//     console.log("ASSALAMUALIKUM");
+// }
+// multiplegreet(greet, 10);
+
+
+// let odd = function(n){
+//     console.log(!(n%2 == 0));
+// }
+
+// odd(9);
+
+// let even = function(n){
+//     console.log(n%2 == 0);
+// }
+// even(11);
+
+// let oddOrEvenFactory = function(request){
+//     if(request == "even"){
+//         let even = function(n){
+//             console.log(n%2 == 0);
+//         }
+//         return even;
+//     } else if(request == "odd"){
+//         let odd = function(n){
+//             console.log(!(n%2 == 0));
+//         } 
+//         return odd;
+//     } else{
+//         console.log("wrong request");
+//     }
+// }
+
+// let request = "even";
+// let oddcheck = oddOrEvenFactory(request);
+// oddcheck(6);
+
+//  MEthods
+
+// const calculator = {
+//     num: 55,
+//     add: function(a,b){
+//         return a+b;
+//     },
+//     sub: function(a, b){
+//         return a - b;
+//     },
+//     mult: function(a, b){
+//         return a*b;
+//     }
+
+// }
+// let result = calculator.mult(5,5);
+// console.log(result);
+
+// Method Shorthand
+
+const calculator = {
+    add(a,b){
+        return a + b;
+    },
+    sub(a,b){
+        return a- b;
+    },
+}
+let result = calculator.add(20,30);
+console.log(result);
