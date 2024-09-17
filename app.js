@@ -260,13 +260,13 @@
 
 // Method Shorthand
 
-const calculator = {
-    add(a,b){
-        return a + b;
-    },
-    sub(a,b){
-        return a- b;
-    },
-}
-let result = calculator.add(20,30);
-console.log(result);
+// const calculator = {
+//     add(a,b){
+//         return a + b;
+//     },
+//     sub(a,b){
+//         return a- b;
+//     },
+// }
+// let result = calculator.add(20,30);
+// console.log(result);
